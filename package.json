@@ -1,0 +1,22 @@
+{
+    "name": "todo_app",
+    "version": "1.0.0",
+    "description": "first project of node",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "todo",
+        "app"
+    ],
+    "author": "ashu",
+    "license": "",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "mongoose": "^5.13.14"
+    }
+}
